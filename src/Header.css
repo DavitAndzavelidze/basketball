@@ -1,0 +1,119 @@
+.header-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto 0 auto;
+  width: 327px;
+}
+
+.header-subtitle {
+  font-size: 18px;
+  color: #e5a616;
+  align-self: flex-start;
+}
+.header-title {
+  font-size: 64px;
+  margin: 5px 0 21px 0;
+  align-self: flex-start;
+}
+
+.header-text {
+  font-size: 18px;
+  text-align: left;
+  width: 327px;
+  color: #272323;
+  opacity: 0.5;
+  line-height: 32px;
+}
+
+.header-btn-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  padding: 24px 18px 24px 20px;
+  background: #e5a616;
+  border-radius: 20px;
+  margin: 23px 0 58px 0;
+  align-self: flex-start;
+}
+
+.header-btn {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: #272323;
+  font-weight: bold;
+  margin-right: 17px;
+}
+.hero-image {
+  width: 337px;
+}
+/* Reflection */
+.reflection-box {
+  background: #d9d9d9;
+}
+.reflection {
+  width: 337px;
+  transform: rotate(180deg) scaleX(-1);
+  opacity: 0.2;
+}
+
+@media (min-width: 1440px) {
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header-box,
+  .header-text {
+    width: 419px;
+  }
+  .header-box {
+    margin: 40px 0 0 101px;
+  }
+  .hero-image,
+  .reflection {
+    width: 612px;
+  }
+  .reflection-box {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 175px;
+  }
+  .header-title {
+    font-size: 96px;
+  }
+  .hero-image {
+    margin-right: 175px;
+    transform: translateY(-15px);
+  }
+  .header-btn-box {
+    width: 330px;
+    padding: 30px 18px 29px 32px;
+    transform: translateY(4rem);
+    cursor: pointer;
+    z-index: 99;
+    transition: all 0.2s ease;
+  }
+  .header-btn-box:hover .header-btn {
+    color: #d9d9d9;
+  }
+  .header-btn-box:hover {
+    color: #d9d9d9;
+  }
+  .header-btn {
+    font-size: 24px;
+    transition: all 0.2s ease;
+  }
+  .header-btn-box i {
+    font-size: 38px;
+  }
+}
