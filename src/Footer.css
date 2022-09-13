@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 2rem;
   padding: 14px 0;
   background: #e5a616;
 }
@@ -20,13 +21,6 @@
   color: #333;
 }
 @media (min-width: 1440px) {
-  .footer-container {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background: transparent;
-  }
   .social-icons svg {
     cursor: pointer;
   }
@@ -34,6 +28,6 @@
     transition: all 0.2s ease;
   }
   .social-icons svg:hover path {
-    fill: #e5a616;
+    fill: #fff;
   }
 }

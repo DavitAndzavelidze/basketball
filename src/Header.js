@@ -1,4 +1,4 @@
-import hero from "./hero.png";
+import hero from "./images/hero.png";
 import "./Header.css";
 
 function Header() {

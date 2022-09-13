@@ -18,6 +18,7 @@ ul {
   height: 4px;
   background: #333;
   margin: 2px;
+  border-radius: 20px;
 }
 .navbar-items {
   display: none;
