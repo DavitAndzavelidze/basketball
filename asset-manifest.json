@@ -1,15 +1,22 @@
 {
   "files": {
-    "main.css": "/basketball/static/css/main.e92a8ce0.css",
-    "main.js": "/basketball/static/js/main.2e9b99c3.js",
+    "main.css": "/basketball/static/css/main.38a4e7ea.css",
+    "main.js": "/basketball/static/js/main.d59adb1a.js",
+    "static/media/article2.jpg": "/basketball/static/media/article2.18168aeb1e9a2815063b.jpg",
+    "static/media/article.jpg": "/basketball/static/media/article.a764c22a24a13fff453c.jpg",
     "static/media/hero.png": "/basketball/static/media/hero.33dbf9128586df25771b.png",
+    "static/media/flag.png": "/basketball/static/media/flag.7f69f2bbcc8162402235.png",
+    "static/media/img2.png": "/basketball/static/media/img2.1899fa29ec8327728942.png",
+    "static/media/img4.png": "/basketball/static/media/img4.43d6bd062bb9ad35aa84.png",
+    "static/media/img1.png": "/basketball/static/media/img1.63b88a3c19cb85506cac.png",
+    "static/media/img3.png": "/basketball/static/media/img3.f32a31967671bb3745a5.png",
     "static/media/logo.svg": "/basketball/static/media/logo.1fcf209fd3890b1735e178210b863e85.svg",
     "index.html": "/basketball/index.html",
-    "main.e92a8ce0.css.map": "/basketball/static/css/main.e92a8ce0.css.map",
-    "main.2e9b99c3.js.map": "/basketball/static/js/main.2e9b99c3.js.map"
+    "main.38a4e7ea.css.map": "/basketball/static/css/main.38a4e7ea.css.map",
+    "main.d59adb1a.js.map": "/basketball/static/js/main.d59adb1a.js.map"
   },
   "entrypoints": [
-    "static/css/main.e92a8ce0.css",
-    "static/js/main.2e9b99c3.js"
+    "static/css/main.38a4e7ea.css",
+    "static/js/main.d59adb1a.js"
   ]
 }
